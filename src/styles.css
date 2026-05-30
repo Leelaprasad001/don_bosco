@@ -248,6 +248,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
 .sign-av{width:54px;height:54px;border-radius:50%;background:var(--orange);display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:1.2rem;color:#fff;flex:none}
 .principal-sign b{font-family:var(--serif);color:#fff;font-size:1.15rem;display:block}
 .principal-sign span{color:var(--orange);font-size:.9rem}
+.principal-sign .sign-av{color:#fff}
 
 /* =========================================================
    EVENTS
@@ -313,6 +314,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
 .ttrack{display:flex;transition:transform .55s var(--ease)}
 .tslide{min-width:100%;display:flex;justify-content:center;padding:6px 4px}
 .tcard{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:42px 46px;box-shadow:var(--sh-md);display:flex;flex-direction:column;max-width:780px;width:100%;text-align:center;align-items:center}
+.tcard{cursor:pointer}
 .tcard .qmark{color:var(--orange-100);font-family:var(--serif);font-size:4rem;line-height:.6;height:34px}
 .tcard .qmark svg{width:42px;height:42px;color:var(--orange-100)}
 .tcard p{color:var(--ink);font-size:1.25rem;line-height:1.6;margin:6px 0 24px;flex:1;text-wrap:pretty;font-family:var(--serif);font-weight:500}
