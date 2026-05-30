@@ -1,4 +1,4 @@
-import { events } from '../../data/siteContent';
+import { events } from '../../config/siteContent';
 
 export function EventsSection() {
   return (

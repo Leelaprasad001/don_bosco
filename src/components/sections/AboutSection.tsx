@@ -1,4 +1,4 @@
-import { features } from '../../data/siteContent';
+import { features } from '../../config/siteContent';
 
 export function AboutSection() {
   return (

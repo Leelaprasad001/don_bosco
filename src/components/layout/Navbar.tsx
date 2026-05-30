@@ -1,4 +1,4 @@
-import { navItems } from '../../data/siteContent';
+import { navItems } from '../../config/siteContent';
 import { BrandIcon } from './BrandIcon';
 
 type NavbarProps = {

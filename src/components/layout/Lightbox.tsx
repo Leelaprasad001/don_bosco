@@ -1,5 +1,5 @@
 import type { Dispatch, SetStateAction } from 'react';
-import { gallery } from '../../data/siteContent';
+import { gallery } from '../../config/siteContent';
 
 type LightboxProps = {
   lbIndex: number | null;

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { gallery, statDefs, testimonials } from './data/siteContent';
+import { gallery, statDefs, testimonials } from './config/siteContent';
 import { Lightbox } from './components/layout/Lightbox';
 import { Navbar } from './components/layout/Navbar';
 import { AboutSection } from './components/sections/AboutSection';

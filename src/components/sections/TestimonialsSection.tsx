@@ -1,5 +1,5 @@
 import type { Dispatch, SetStateAction } from 'react';
-import { testimonials } from '../../data/siteContent';
+import { testimonials } from '../../config/siteContent';
 
 type TestimonialsSectionProps = {
   cur: number;

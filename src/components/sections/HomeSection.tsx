@@ -1,4 +1,4 @@
-import { statDefs } from '../../data/siteContent';
+import { statDefs } from '../../config/siteContent';
 
 type HomeSectionProps = {
   counts: number[];

@@ -1,4 +1,4 @@
-import { facilities } from '../../data/siteContent';
+import { facilities } from '../../config/siteContent';
 
 export function FacilitiesSection() {
   return (
