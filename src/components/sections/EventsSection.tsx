@@ -14,7 +14,7 @@ export function EventsSection() {
             <article className="event reveal" style={{ transitionDelay: `${(i % 4) * 70}ms` }} key={e.t}>
               <div className="event-img">
                 <span className={`badge badge--${e.cls}`}>{e.cat}</span>
-                <img src={`/images/${e.img}.png`} alt={e.t} />
+                <img src={`/assests/images/${e.img}.webp`} alt={e.t} />
               </div>
               <div className="event-body">
                 <span className="event-date">

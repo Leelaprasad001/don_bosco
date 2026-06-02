@@ -19,7 +19,7 @@ export function Lightbox({ lbIndex, setLbIndex }: LightboxProps) {
           <path d="M15 18l-6-6 6-6" />
         </svg>
       </button>
-      <img src={lbIndex === null ? 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' : `/images/${gallery[lbIndex].img}.png`} alt="Gallery image" />
+      <img src={lbIndex === null ? 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' : `/assests/images/${gallery[lbIndex].img}.webp`} alt="Gallery image" />
       <button className="lb-nav lb-next" aria-label="Next" onClick={() => setLbIndex((prev) => (prev === null ? null : (prev + 1) % gallery.length))}>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M9 18l6-6-6-6" />

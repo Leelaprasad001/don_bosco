@@ -4,7 +4,7 @@ import { Lightbox } from './components/layout/Lightbox';
 import { Navbar } from './components/layout/Navbar';
 import { AboutSection } from './components/sections/AboutSection';
 import { ContactFooter } from './components/sections/ContactFooter';
-import { EventsSection } from './components/sections/EventsSection';
+// import { EventsSection } from './components/sections/EventsSection';
 import { FacilitiesSection } from './components/sections/FacilitiesSection';
 import { GallerySection } from './components/sections/GallerySection';
 import { HomeSection } from './components/sections/HomeSection';
@@ -158,7 +158,7 @@ function App() {
       <AboutSection />
       <FacilitiesSection />
       <PrincipalSection />
-      <EventsSection />
+      {/* <EventsSection /> */}
       <GallerySection setLbIndex={setLbIndex} />
       <TestimonialsSection cur={cur} setCur={setCur} setHoveringCarousel={setHoveringCarousel} />
       <AdmissionsSection />

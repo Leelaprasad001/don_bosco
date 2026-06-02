@@ -54,6 +54,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
 }
 .section-head{max-width:680px;margin:0 auto 56px;text-align:center}
 .section-head h2{font-size:clamp(2rem,3.6vw,2.9rem)}
+.why-choose-us{max-width:850px;}
 .section-head p{color:var(--muted);margin:16px 0 0;font-size:1.05rem;text-wrap:pretty}
 
 /* ---------- Buttons ---------- */
@@ -135,7 +136,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
    HERO
    ========================================================= */
 .hero{position:relative;min-height:92vh;display:flex;align-items:center;color:#fff;overflow:hidden;padding:calc(var(--nav-h) + 24px) 0 120px}
-.hero-bg{position:absolute;inset:0;background:url("/images/hero-bg.png") center/cover no-repeat;transform:scale(1.05)}
+.hero-bg{position:absolute;inset:0;background:url("/assests/images/hero-bg.webp") center/cover no-repeat;transform:scale(1.05)}
 .hero-overlay{position:absolute;inset:0;background:
   linear-gradient(100deg,rgba(14,24,48,.94) 0%,rgba(14,24,48,.82) 38%,rgba(14,24,48,.45) 70%,rgba(14,24,48,.30) 100%)}
 .hero .container{position:relative;z-index:2}
@@ -219,6 +220,23 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
   max-height:0;opacity:0;transform:translateY(6px);overflow:hidden;
   transition:max-height .35s var(--ease),opacity .3s var(--ease),transform .3s var(--ease),margin .3s var(--ease)}
 .fac:hover .fac-cap p,.fac:focus-within .fac-cap p{max-height:64px;opacity:1;transform:none;margin-top:7px}
+
+.highlights-block{
+  margin-top:44px;padding:28px;border-radius:18px;border:1px solid var(--line);
+  background:linear-gradient(145deg,#fff 0%,#fff7f1 100%);
+}
+.highlights-head{text-align:center;max-width:760px;margin:0 auto 20px}
+.highlights-head h3{margin:8px 0 0;font-size:clamp(1.4rem,2.8vw,2rem);color:var(--navy)}
+.highlights-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.highlight-item{
+  display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:12px 13px;box-shadow:var(--sh-sm);font-size:.95rem;line-height:1.45;color:var(--navy-800)
+}
+.highlight-mark{
+  width:22px;height:22px;min-width:22px;border-radius:50%;display:grid;place-items:center;
+  background:var(--orange);color:#fff;margin-top:1px
+}
+.highlight-mark svg{width:13px;height:13px}
 
 /* =========================================================
    PRINCIPAL (navy)
@@ -395,6 +413,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
   .principal .container{grid-template-columns:1fr;gap:40px}
   .principal-photo img{height:440px}
   .grid-4,.events-grid{grid-template-columns:repeat(2,1fr)}
+  .highlights-grid{grid-template-columns:repeat(2,1fr)}
   .tslide{padding:4px}
   .tcard{padding:34px}
   .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}
@@ -421,6 +440,7 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
   .principal-text .bigquote{font-size:11rem;top:-30px}
   .footer-bottom{flex-direction:column;text-align:center}
   .apply-form{grid-template-columns:1fr}
+  .highlights-block{margin-top:34px;padding:22px}
 }
 @media(max-width:480px){
   body{font-size:16px}
@@ -435,6 +455,8 @@ h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.12;margin:0
   .hero-cta .btn{justify-content:center}
   .cta-actions{flex-direction:column}
   .section-head{margin-bottom:38px}
+  .highlights-grid{grid-template-columns:1fr}
+  .highlights-block{padding:18px}
 }
 
 @media(prefers-reduced-motion:reduce){

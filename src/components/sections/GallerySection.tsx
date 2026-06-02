@@ -17,7 +17,7 @@ export function GallerySection({ setLbIndex }: GallerySectionProps) {
         <div className="gallery reveal" id="gallery-grid">
           {gallery.map((g, i) => (
             <figure className={`gitem ${g.cls}`} tabIndex={0} role="button" aria-label={`View ${g.alt}`} key={g.img} onClick={() => setLbIndex(i)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setLbIndex(i)}>
-              <img src={`/images/${g.img}.png`} alt={g.alt} />
+              <img src={`/assests/images/${g.img}.webp`} alt={g.alt} />
               <span className="gicon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <circle cx="11" cy="11" r="7" />
