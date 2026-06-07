@@ -40,12 +40,14 @@ export const events: EventItem[] = [
 ];
 
 export const gallery: GalleryItem[] = [
-  { img: 'gal-classroom', cls: 'g-a', alt: 'Modern classroom' },
-  { img: 'gal-audience', cls: 'g-b', alt: 'School assembly' },
-  { img: 'gal-apple', cls: 'g-c', alt: 'Books and learning' },
-  { img: 'gal-sports', cls: 'g-d', alt: 'Sports ground' },
-  { img: 'gal-glass', cls: 'g-e', alt: 'Science laboratory' },
-  { img: 'gal-books', cls: 'g-f', alt: 'Library' },
+  { img: 'gal-1', cls: 'g-a', alt: 'Gallery Image 1' },
+  { img: 'gal-2', cls: 'g-b', alt: 'Gallery Image 2' },
+  { img: 'gal-3', cls: 'g-c', alt: 'Gallery Image 3' },
+  { img: 'gal-4', cls: 'g-d', alt: 'Gallery Image 4' },
+  { img: 'gal-5', cls: 'g-e', alt: 'Gallery Image 5' },
+  { img: 'gal-6', cls: 'g-f', alt: 'Gallery Image 6' },
+  { img: 'gal-7', cls: 'g-g', alt: 'Gallery Image 7' },
+  { img: 'gal-8', cls: 'g-h', alt: 'Gallery Image 8' },
 ];
 
 export const testimonials: Testimonial[] = [

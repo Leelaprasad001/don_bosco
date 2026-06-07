@@ -1,5 +1,4 @@
 import { navItems } from '../../config/siteContent';
-import { BrandIcon } from './BrandIcon';
 
 type NavbarProps = {
   active: string;
@@ -17,7 +16,11 @@ export function Navbar({ active, atTop, scrolled, drawerOpen, onOpenDrawer, onCl
         <div className="container">
           <a href="#home" className="brand" aria-label="Don Bosco's English Medium School home">
             <span className="brand-badge">
-              <BrandIcon />
+              <img
+                src="/assests/logo.png"
+                alt="Don Bosco's English Medium School"
+                className="brand-logo"
+              />
             </span>
             <span className="brand-text">
               <b>Don Bosco's</b>

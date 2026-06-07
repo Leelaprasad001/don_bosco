@@ -5,7 +5,7 @@ export function PrincipalSection() {
       <div className="container">
         <div className="principal-photo reveal">
           <div className="frame">
-            <img src="/assests/images/principal.webp" alt="Principal of Don Bosco's English Medium School" />
+            <img src="/assests/images/chairman.webp" alt="Chairman of Don Bosco's English Medium School" />
           </div>
           <div className="quote-badge">
             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -16,16 +16,16 @@ export function PrincipalSection() {
         </div>
         <div className="principal-text reveal">
           <span className="bigquote">”</span>
-          <p className="eyebrow">Principal's Message</p>
+          <p className="eyebrow">Chairman's Message</p>
           <h2>Welcome to Don Bosco English Medium School</h2>
           <p>Dear Parents, Students, and Visitors,</p>
           <p>At our school, we believe that education is the foundation for a successful and meaningful life. Our mission is to provide quality education that nurtures academic excellence, strong values, creativity, and confidence in every student.</p>
           <p>With experienced faculty, smart classrooms, IIT Foundation Classes, coding education, and a variety of co-curricular activities, we strive to create a learning environment where students can grow academically and personally. Our commitment to maintaining a safe campus, modern facilities, and holistic development helps every child reach their full potential.</p>
           <p>We take pride in our tradition of excellence and our consistent 100% pass record. Together with parents and teachers, we work to prepare students for a bright and successful future.</p>
           <div className="principal-sign">
-            <span className="sign-av">PR</span>
+            <span className="sign-av">CH</span>
             <span>
-              <b>Principal</b>
+              <b>Chairman</b>
               <span>Don Bosco English Medium School</span>
             </span>
           </div>

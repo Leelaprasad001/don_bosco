@@ -2,9 +2,10 @@ import { statDefs } from '../../config/siteContent';
 
 type HomeSectionProps = {
   counts: number[];
+  setShowVideo: (show: boolean) => void;
 };
 
-export function HomeSection({ counts }: HomeSectionProps) {
+export function HomeSection({ counts, setShowVideo }: HomeSectionProps) {
   return (
     <>
       <header className="hero" id="home">
@@ -24,14 +25,18 @@ export function HomeSection({ counts }: HomeSectionProps) {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </a>
-              <a href="#gallery" className="btn btn--ghost-light">
+              <button
+                type="button"
+                className="btn btn--ghost-light"
+                onClick={() => setShowVideo(true)}
+              >
                 <span className="play">
                   <svg viewBox="0 0 24 24" fill="currentColor">
                     <path d="M6 4l14 8-14 8z" />
                   </svg>
                 </span>
                 Explore Campus
-              </a>
+              </button>
             </div>
             <div className="trust">
               <span>

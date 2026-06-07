@@ -11,6 +11,7 @@ import { HomeSection } from './components/sections/HomeSection';
 import { PrincipalSection } from './components/sections/PrincipalSection';
 import { TestimonialsSection } from './components/sections/TestimonialsSection';
 import { AdmissionsSection } from './components/sections/AdmissionsSection';
+import { VideoModal } from "./components/sections/VideoModal";
 
 const sections = ['home', 'about', 'facilities', 'gallery', 'events', 'contact'];
 
@@ -24,6 +25,7 @@ function App() {
   const [cur, setCur] = useState(0);
   const [hoveringCarousel, setHoveringCarousel] = useState(false);
   const [lbIndex, setLbIndex] = useState<number | null>(null);
+  const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -154,7 +156,14 @@ function App() {
         onOpenDrawer={() => setDrawerOpen(true)}
         onCloseDrawer={() => setDrawerOpen(false)}
       />
-      <HomeSection counts={counts} />
+      <HomeSection
+        counts={counts}
+        setShowVideo={setShowVideo}
+      />
+      <VideoModal
+        show={showVideo}
+        onClose={() => setShowVideo(false)}
+      />
       <AboutSection />
       <FacilitiesSection />
       <PrincipalSection />
