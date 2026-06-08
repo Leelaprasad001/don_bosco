@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { FormEvent } from 'react';
 import { APPLY_API_URL } from '../../config/apiUrls';
+import { encryptPayload } from "./../../config/encrypt";
 
 type ApplyForm = {
   studentName: string;
@@ -60,13 +61,15 @@ export function AdmissionsSection() {
         ...form,
         source: 'don_bosco_website',
       };
-
+      const encrypted = encryptPayload(payload);
       const res = await fetch(APPLY_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({
+          payload: encrypted,
+        }),
       });
 
       if (!res.ok) {

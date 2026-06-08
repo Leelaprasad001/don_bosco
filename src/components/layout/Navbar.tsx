@@ -17,7 +17,7 @@ export function Navbar({ active, atTop, scrolled, drawerOpen, onOpenDrawer, onCl
           <a href="#home" className="brand" aria-label="Don Bosco's English Medium School home">
             <span className="brand-badge">
               <img
-                src="/assests/logo.png"
+                src="/assests/logo.webp"
                 alt="Don Bosco's English Medium School"
                 className="brand-logo"
               />

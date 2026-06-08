@@ -7,7 +7,7 @@ export function ContactFooter() {
             <a href="#home" className="brand">
               <span className="brand-badge">
                 <img
-                  src="/assests/logo.png"
+                  src="/assests/logo.webp"
                   alt="Don Bosco's English Medium School"
                   className="brand-logo"
                 />
