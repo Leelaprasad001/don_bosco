@@ -17,7 +17,7 @@ export function ContactFooter() {
                 <span>English Medium School</span>
               </span>
             </a>
-            <p>Owned and managed by Sri Saraswathi Vidya Vihar Group of Educational Institutions. Empowering young minds with knowledge, discipline, and values since establishment.</p>
+            <p>Owned and managed by Sri Saraswathi Vidya Vihar Group Of Educational Institutions, Gajuwaka. Empowering young minds with knowledge, discipline, and values since establishment.</p>
             <div className="socials">
             <a
               href="https://wa.me/917993246358"
@@ -84,7 +84,7 @@ export function ContactFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                DON BOSCO'S EM SCHOOL, Balighattam, Andhra Pradesh - 531116, India
+                Don Bosco's English Medium School, Shanthi Nagar, Narsipatnam, Anakapalli - 531116, India
               </a>
             </div>
 

@@ -91,14 +91,14 @@ export function AdmissionsSection() {
   return (
     <section className="cta-banner" id="admissions">
       <div className="container">
-        <span className="cta-pill">Admissions Open for 2025-26</span>
+        <span className="cta-pill">Admissions Open for 2026-27</span>
         <h2>
           Give Your Child the Gift
           <br />
           of Quality Education
         </h2>
         <p>Join thousands of families who have trusted Don Bosco's English Medium School for their children's educational journey. Limited seats available.</p>
-        <p className="cta-note">Applications close on March 31, 2026. Early applications receive priority.</p>
+        {/* <p className="cta-note">Applications close on March 31, 2026. Early applications receive priority.</p> */}
         <div className="cta-actions">
           <button type="button" className="btn btn--white" onClick={() => setModalOpen(true)}>
             Apply Now

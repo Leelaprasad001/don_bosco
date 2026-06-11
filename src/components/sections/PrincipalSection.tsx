@@ -17,7 +17,7 @@ export function PrincipalSection() {
         <div className="principal-text reveal">
           <span className="bigquote">”</span>
           <p className="eyebrow">Chairman's Message</p>
-          <h2>Welcome to Don Bosco English Medium School</h2>
+          <h2>Welcome to Don Bosco's English Medium School</h2>
           <p>Dear Parents, Students, and Visitors,</p>
           <p>At our school, we believe that education is the foundation for a successful and meaningful life. Our mission is to provide quality education that nurtures academic excellence, strong values, creativity, and confidence in every student.</p>
           <p>With experienced faculty, smart classrooms, IIT Foundation Classes, coding education, and a variety of co-curricular activities, we strive to create a learning environment where students can grow academically and personally. Our commitment to maintaining a safe campus, modern facilities, and holistic development helps every child reach their full potential.</p>
@@ -26,7 +26,7 @@ export function PrincipalSection() {
             <span className="sign-av">CH</span>
             <span>
               <b>Chairman</b>
-              <span>Don Bosco English Medium School</span>
+              <span>Don Bosco's English Medium School</span>
             </span>
           </div>
         </div>

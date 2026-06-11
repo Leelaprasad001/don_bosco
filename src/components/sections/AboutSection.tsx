@@ -7,7 +7,7 @@ export function AboutSection() {
         <div className="section-head why-choose-us reveal">
           <p className="eyebrow">Why Choose Us</p>
           <h2>Excellence in Education Since 1983</h2>
-          <p>At Don Bosco English Medium School, we are committed to nurturing young minds through academic excellence, modern learning practices, and holistic development. From Nursery to 10th Grade, we provide a supportive environment where students are encouraged to learn, grow, and succeed.</p>
+          <p>At Don Bosco's English Medium School, we are committed to nurturing young minds through academic excellence, modern learning practices, and holistic development. From Nursery to 10th Grade, we provide a supportive environment where students are encouraged to learn, grow, and succeed.</p>
         </div>
         <div className="grid-4" id="features">
           {features.map((f, i) => (

@@ -43,7 +43,7 @@ export function HomeSection({ counts, setShowVideo }: HomeSectionProps) {
                 <i style={{ background: '#28c76f' }} />CBSE Affiliated
               </span>
               <span>
-                <i style={{ background: 'var(--orange)' }} />ISO Certified
+                <i style={{ background: 'var(--orange)' }} />Recognised by Govt. of A.P
               </span>
               <span>
                 <i style={{ background: '#2a6fdb' }} />A+ Grade Institution

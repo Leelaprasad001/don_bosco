@@ -25,7 +25,7 @@ export function FacilitiesSection() {
         <div className="highlights-block reveal" id="highlights">
           <div className="highlights-head">
             <p className="eyebrow">Our Highlights</p>
-            <h3>Key Highlights of Don Bosco School</h3>
+            <h3>Key Highlights of Don Bosco's School</h3>
           </div>
           <ul className="highlights-grid" aria-label="School highlights">
             {highlights.map((item, i) => (
